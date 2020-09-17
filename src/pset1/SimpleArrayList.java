@@ -142,8 +142,6 @@ public class SimpleArrayList {
 		}
 	}
 	
-	
-	
 	private void checkIndex() {
 		if(size+1 > baseArray.length) {
 			String[] tempString = new String[baseArray.length+initCapacity];
@@ -153,7 +151,6 @@ public class SimpleArrayList {
 			baseArray = tempString;
 		}
 	}
-	
 }
 	
 
